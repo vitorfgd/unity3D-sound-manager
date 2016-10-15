@@ -12,6 +12,7 @@ How To?
 > - Add an audio source to any GameObject (strongly recommended to add to the same GameObject as the sound manager script);
 > - When you need to call the one shot sound simply add: Sounds.PlaySound (SoundsGame.sound1) in any script (i.e.: EnemyHit) changing "sound1" to desired;
 
+<br />
 ![Sound](http://i.imgur.com/9uxZqkm.png)
 
 Contributing
