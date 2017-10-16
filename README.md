@@ -1,4 +1,4 @@
-unity-sound-manager
+Sound Manager - Unity3D
 ===================
 
 This is a simple script to manage one shot sounds in unity.
@@ -7,13 +7,11 @@ This is a simple script to manage one shot sounds in unity.
 How To?
 -------------
 
-> - Attach this script to any GameObject (MainCamera, EmptyGameObject, etc.);
-> - Put your sounds in the script inspector within Unity3D;
-> - Add an audio source to any GameObject (strongly recommended to add to the same GameObject as the sound manager script);
-> - When you need to call the one shot sound simply add: Sounds.PlaySound (SoundsGame.sound1) in any script (i.e.: EnemyHit) changing "sound1" to desired;
+- Attach this script to any GameObject (MainCamera, EmptyGameObject, etc.);
+- Assign your sounds in the script inspector;
+- Add an audio source to any GameObject (strongly recommended to add to the same GameObject as the sound manager script);
+- Call it using: Sounds.PlaySound (SoundsGame.(Sound you'd like to be played just once) in any script (i.e.: EnemyHit);
 
-<br />
-![Sound](http://i.imgur.com/9uxZqkm.png)
 
 Contributing
 -------------
